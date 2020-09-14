@@ -1,0 +1,25 @@
+{
+  "name": "ignite-flow-samples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cybergroup-Research/ignite-flow-samples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cybergroup-Research/ignite-flow-samples/issues"
+  },
+  "homepage": "https://github.com/Cybergroup-Research/ignite-flow-samples#readme",
+  "node-red": {
+    "settings": {
+        "flowFile": "flows.json",
+        "credentialsFile": "flows_cred.json"
+    }
+  }
+}
