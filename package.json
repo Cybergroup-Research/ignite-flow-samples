@@ -1,25 +1,30 @@
 {
-  "name": "ignite-flow-samples",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Cybergroup-Research/ignite-flow-samples.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Cybergroup-Research/ignite-flow-samples/issues"
-  },
-  "homepage": "https://github.com/Cybergroup-Research/ignite-flow-samples#readme",
-  "node-red": {
-    "settings": {
-        "flowFile": "flows.json",
-        "credentialsFile": "flows_cred.json"
+    "name": "ignite-flow-samples",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Cybergroup-Research/ignite-flow-samples.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Cybergroup-Research/ignite-flow-samples/issues"
+    },
+    "homepage": "https://github.com/Cybergroup-Research/ignite-flow-samples#readme",
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    },
+    "dependencies": {
+        "@cgignite/ignite-auth": "1.0.10",
+        "@cgignite/ignite-odata": "1.2.4",
+        "@cgignite/ignite-sequelize": "1.0.12"
     }
-  }
 }
